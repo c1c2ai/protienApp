@@ -1,0 +1,145 @@
+/*! CSS Used from: https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/css/screen.css */
+div,fieldset,form,h1,h3,input,label,legend,li,ol,select,span,strong,ul{font-family:inherit;outline:0;margin:0;border:none;padding:0;vertical-align:baseline;background:transparent;-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:transparent;}
+li{list-style:none;}
+header,section{display:block;}
+html body .visuallyhidden,html body #page .visuallyhidden{display:none;}
+@media (min-width: 1024px){
+.mobile{display:none;}
+}
+@media (max-width: 1023px){
+.mobilehidden{display:none;}
+}
+input,select,label{-webkit-tap-highlight-color:transparent;}
+#page ::-webkit-input-placeholder{font-family:"NTA", "Helvetica Neue", Arial, Helvetica, sans-serif;text-transform:none;color:#aaa;}
+#page input:-moz-placeholder{font-family:"NTA", "Helvetica Neue", Arial, Helvetica, sans-serif;text-transform:none;color:#aaa;}
+h1,h3{font-weight:bold;}
+#main section h3{font-size:1.33333em;line-height:1.75em;}
+#main>header h1{font-size:1.5em;line-height:1.55556em;}
+@media (max-width: 480px){
+#main section h3{font-size:1em;line-height:2.33333em;}
+#main>header h1{font-size:1.16667em;line-height:2em;}
+}
+#main{max-width:960px;position:relative;margin:0;background:white;}
+#main:after{display:block;clear:both;height:0;content:"\2003";}
+@media (min-width: 768px){
+#main{margin:1em auto 0;border-top:2px solid #2DA096;background:#fff;}
+}
+#main>section{position:relative;padding:0;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+@media (min-width: 1025px){
+#main>section{display:inline;float:left;width:81.37105%;margin:0 .98114%;margin-left:9.31448%;}
+}
+@media (min-width: 769px) and (max-width: 1024px){
+#main>section{display:inline;float:left;width:64.70438%;margin:0 .98114%;margin-left:17.64781%;margin-right:17.64781%;}
+}
+@media (min-width: 481px) and (max-width: 768px){
+#main>section{display:inline;float:left;width:81.37105%;margin:0 .98114%;margin-left:9.31448%;margin-right:9.31448%;}
+}
+@media (max-width: 480px){
+#main>section{padding:0 1em;}
+}
+@media (min-width: 1025px){
+#page-choose-test-type #main>section{display:inline;float:left;width:48.03772%;margin:0 .98114%;margin-left:9.31448%;}
+}
+#page-choose-test-type #main>section{margin-top:1.16667em;}
+#main>section{margin-bottom:2.33333em;}
+#page-choose-test-type #main>section{margin-bottom:2.33333em;}
+#page-choose-test-type #main>section{margin-bottom:1.16667em;}
+@media (min-width: 1024px){
+body#page-choose-test-type #main{min-height:610px;}
+}
+@media (min-width: 481px) and (max-width: 1023px){
+body#page-choose-test-type #main{min-height:610px;}
+}
+ul.button-board li{margin-bottom:.5em;}
+ul.button-board input.button{text-align:left;}
+input[type="submit"]{-webkit-appearance:none;}
+input.button{position:relative;top:-2px;display:inline-block;border:1px solid #ccc;border-bottom-color:#bbb;-moz-border-radius:4px 4px;-webkit-border-radius:4px;border-radius:4px 4px;padding:.5em;width:100%;-moz-box-shadow:0 2px #c3c3c3;-webkit-box-shadow:0 2px #c3c3c3;box-shadow:0 2px #c3c3c3;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;font-family:inherit;font-size:80%;font-weight:bold;letter-spacing:1px;text-decoration:none;color:#444;background:#fafafa;background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/test-type.png),-webkit-gradient(linear, 0 0, 0 100%, from(#fff), color-stop(25%, #fff), to(#f5f5f5));background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/test-type.png),-webkit-linear-gradient(#fff, #fff 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/test-type.png),-moz-linear-gradient(top, #fff, #fff 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/test-type.png),-ms-linear-gradient(#fff, #fff 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/test-type.png),-o-linear-gradient(#fff, #fff 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/test-type.png),linear-gradient(#ffffff,#ffffff 25%,#f5f5f5);background-repeat:no-repeat;background-position:100% 50%;cursor:pointer;}
+input.button:active{-moz-box-shadow:0 0 #1C7F73;-webkit-box-shadow:0 0 #1C7F73;box-shadow:0 0 #1C7F73;}
+input.button:focus{outline:3px solid #fc0;}
+@media (max-width: 480px){
+input.button{top:0;padding:.25em .5em;}
+}
+input.cta,span.button{display:inline-block;border:none;-moz-border-radius:3px 3px;-webkit-border-radius:3px;border-radius:3px 3px;padding:0.45em 2.5em 0.45em 0.5em;-moz-box-shadow:0 3px 0 #000;-webkit-box-shadow:0 3px 0 #000;box-shadow:0 3px 0 #000;width:auto;font:400 2.4rem/0.66667;text-decoration:none;color:white;background:#008270 url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/button-next.png) no-repeat 100% 50%;background-size:30px 19px;-moz-background-size:30px 19px;cursor:pointer;}
+input.cta:active,span.button:active{-moz-transform:translate(0, 2px);-ms-transform:translate(0, 2px);-webkit-transform:translate(0, 2px);transform:translate(0, 2px);}
+input.cta:focus,span.button:focus{outline:3px solid #fc0;}
+ul.button-board input{padding:1.25em;font-size:100%;}
+@media (max-width: 480px){
+ul.button-board input{padding:.75em 1.25em;}
+}
+@media (min-width: 481px){
+ul.button-board>li{margin-bottom:1em;}
+input.button,ul.button-board>li>input{font-size:100%;}
+}
+#test-type-car,#test-type-car-short{font-family:inherit;position:relative;padding:2em 1em;background:#fafafa;background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/test-type-car.png),-webkit-gradient(linear, 0 0, 0 100%, from(#fff), color-stop(25%, #fff), to(#f5f5f5));background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/test-type-car.png),-webkit-linear-gradient(#fff, #fff 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/test-type-car.png),-moz-linear-gradient(top, #fff, #fff 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/test-type-car.png),-ms-linear-gradient(#fff, #fff 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/test-type-car.png),-o-linear-gradient(#fff, #fff 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/test-type-car.png),linear-gradient(#ffffff,#ffffff 25%,#f5f5f5);background-repeat:no-repeat;background-position:100% 50%;}
+#test-type-car-short{display:none;}
+@media (max-width: 479px){
+#test-type-car{display:none;}
+#test-type-car-short{display:block;}
+}
+#test-type-car-trailer{font-family:inherit;position:relative;background:#fafafa;background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/test-type-car-trailer.png),-webkit-gradient(linear, 0 0, 0 100%, from(#fff), color-stop(25%, #fff), to(#f5f5f5));background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/test-type-car-trailer.png),-webkit-linear-gradient(#fff, #fff 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/test-type-car-trailer.png),-moz-linear-gradient(top, #fff, #fff 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/test-type-car-trailer.png),-ms-linear-gradient(#fff, #fff 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/test-type-car-trailer.png),-o-linear-gradient(#fff, #fff 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/test-type-car-trailer.png),linear-gradient(#ffffff,#ffffff 25%,#f5f5f5);background-repeat:no-repeat;background-position:100% 50%;}
+#test-type-bike,#main label[for="test-type-bike"]{font-family:inherit;font-weight:bold;background:#fafafa;background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/test-type-bike.png),-webkit-gradient(linear, 0 0, 0 100%, from(#fff), color-stop(25%, #fff), to(#f5f5f5));background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/test-type-bike.png),-webkit-linear-gradient(#fff, #fff 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/test-type-bike.png),-moz-linear-gradient(top, #fff, #fff 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/test-type-bike.png),-ms-linear-gradient(#fff, #fff 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/test-type-bike.png),-o-linear-gradient(#fff, #fff 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/test-type-bike.png),linear-gradient(#ffffff,#ffffff 25%,#f5f5f5);background-repeat:no-repeat;background-position:100% 50%;}
+#test-type-other,#main label[for="test-type-other"]{font-family:inherit;font-weight:bold;background:#fafafa;background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/test-type-other.png),-webkit-gradient(linear, 0 0, 0 100%, from(#fff), color-stop(25%, #fff), to(#f5f5f5));background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/test-type-other.png),-webkit-linear-gradient(#fff, #fff 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/test-type-other.png),-moz-linear-gradient(top, #fff, #fff 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/test-type-other.png),-ms-linear-gradient(#fff, #fff 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/test-type-other.png),-o-linear-gradient(#fff, #fff 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/test-type-other.png),linear-gradient(#ffffff,#ffffff 25%,#f5f5f5);background-repeat:no-repeat;background-position:100% 50%;}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi){
+#test-type-car,#test-type-car-short{font-family:inherit;background:#fafafa;background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/retina/test-type-car.png),-webkit-gradient(linear, 0 0, 0 100%, from(#fff), color-stop(25%, #fff), to(#f5f5f5));background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/retina/test-type-car.png),-webkit-linear-gradient(#fff, #fff 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/retina/test-type-car.png),-moz-linear-gradient(top, #fff, #fff 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/retina/test-type-car.png),-ms-linear-gradient(#fff, #fff 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/retina/test-type-car.png),-o-linear-gradient(#fff, #fff 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/retina/test-type-car.png),linear-gradient(#ffffff,#ffffff 25%,#f5f5f5);background-repeat:no-repeat;background-position:100% 50%;background-size:129px 40px, 100% 100%;}
+#test-type-car-trailer{font-family:inherit;background:#fafafa;background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/retina/test-type-car-trailer.png),-webkit-gradient(linear, 0 0, 0 100%, from(#fff), color-stop(25%, #fff), to(#f5f5f5));background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/retina/test-type-car-trailer.png),-webkit-linear-gradient(#fff, #fff 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/retina/test-type-car-trailer.png),-moz-linear-gradient(top, #fff, #fff 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/retina/test-type-car-trailer.png),-ms-linear-gradient(#fff, #fff 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/retina/test-type-car-trailer.png),-o-linear-gradient(#fff, #fff 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/retina/test-type-car-trailer.png),linear-gradient(#ffffff,#ffffff 25%,#f5f5f5);background-repeat:no-repeat;background-position:100% 50%;background-size:129px 40px, 100% 100%;}
+#test-type-bike{font-family:inherit;background:#fafafa;background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/retina/test-type-bike.png),-webkit-gradient(linear, 0 0, 0 100%, from(#fff), color-stop(25%, #fff), to(#f5f5f5));background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/retina/test-type-bike.png),-webkit-linear-gradient(#fff, #fff 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/retina/test-type-bike.png),-moz-linear-gradient(top, #fff, #fff 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/retina/test-type-bike.png),-ms-linear-gradient(#fff, #fff 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/retina/test-type-bike.png),-o-linear-gradient(#fff, #fff 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/retina/test-type-bike.png),linear-gradient(#ffffff,#ffffff 25%,#f5f5f5);background-repeat:no-repeat;background-position:100% 50%;background-size:119px 40px, 100% 100%;}
+#test-type-other{font-family:inherit;background:#fafafa;background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/retina/test-type-other.png),-webkit-gradient(linear, 0 0, 0 100%, from(#fff), color-stop(25%, #fff), to(#f5f5f5));background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/retina/test-type-other.png),-webkit-linear-gradient(#fff, #fff 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/retina/test-type-other.png),-moz-linear-gradient(top, #fff, #fff 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/retina/test-type-other.png),-ms-linear-gradient(#fff, #fff 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/retina/test-type-other.png),-o-linear-gradient(#fff, #fff 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/retina/test-type-other.png),linear-gradient(#ffffff,#ffffff 25%,#f5f5f5);background-repeat:no-repeat;background-position:100% 50%;background-size:184px 40px, 100% 100%;}
+}
+@media (max-width: 480px){
+#test-type-bike,#main label[for="test-type-bike"]{font-family:inherit;background:#fafafa;background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/test-type-bike.png),-webkit-gradient(linear, 0 0, 0 100%, from(#fff), color-stop(25%, #fff), to(#f5f5f5));background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/test-type-bike.png),-webkit-linear-gradient(#fff, #fff 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/test-type-bike.png),-moz-linear-gradient(top, #fff, #fff 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/test-type-bike.png),-ms-linear-gradient(#fff, #fff 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/test-type-bike.png),-o-linear-gradient(#fff, #fff 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/test-type-bike.png),linear-gradient(#ffffff,#ffffff 25%,#f5f5f5);background-repeat:no-repeat;background-position:100% 50%;-webkit-transition:background 1s;}
+}
+@media (max-width: 480px) and (-webkit-min-device-pixel-ratio: 1.5), (max-width: 480px) and (min-resolution: 144dpi){
+#test-type-bike,#main label[for="test-type-bike"]{background:#fafafa;background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/retina/test-type-bike.png),-webkit-gradient(linear, 0 0, 0 100%, from(#fff), color-stop(25%, #fff), to(#f5f5f5));background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/retina/test-type-bike.png),-webkit-linear-gradient(#fff, #fff 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/retina/test-type-bike.png),-moz-linear-gradient(top, #fff, #fff 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/retina/test-type-bike.png),-ms-linear-gradient(#fff, #fff 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/retina/test-type-bike.png),-o-linear-gradient(#fff, #fff 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/retina/test-type-bike.png),linear-gradient(#ffffff,#ffffff 25%,#f5f5f5);background-repeat:no-repeat;background-position:100% 50%;background-size:119px 40px, 100% 100%;}
+}
+@media (max-width: 480px){
+#test-type-bike:focus,#main label[for="test-type-bike"]:focus{background-position:100%, 200%, 0;}
+#test-type-other,#main label[for="test-type-other"]{font-family:inherit;background:#fafafa;background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/test-type-other.png),-webkit-gradient(linear, 0 0, 0 100%, from(#fff), color-stop(25%, #fff), to(#f5f5f5));background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/test-type-other.png),-webkit-linear-gradient(#fff, #fff 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/test-type-other.png),-moz-linear-gradient(top, #fff, #fff 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/test-type-other.png),-ms-linear-gradient(#fff, #fff 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/test-type-other.png),-o-linear-gradient(#fff, #fff 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/test-type-other.png),linear-gradient(#ffffff,#ffffff 25%,#f5f5f5);background-repeat:no-repeat;background-position:100% 50%;-webkit-transition:background 1s;}
+}
+@media (max-width: 480px) and (-webkit-min-device-pixel-ratio: 1.5), (max-width: 480px) and (min-resolution: 144dpi){
+#test-type-other,#main label[for="test-type-other"]{background:#fafafa;background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/retina/test-type-other.png),-webkit-gradient(linear, 0 0, 0 100%, from(#fff), color-stop(25%, #fff), to(#f5f5f5));background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/retina/test-type-other.png),-webkit-linear-gradient(#fff, #fff 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/retina/test-type-other.png),-moz-linear-gradient(top, #fff, #fff 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/retina/test-type-other.png),-ms-linear-gradient(#fff, #fff 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/retina/test-type-other.png),-o-linear-gradient(#fff, #fff 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/retina/test-type-other.png),linear-gradient(#ffffff,#ffffff 25%,#f5f5f5);background-repeat:no-repeat;background-position:100% 50%;background-size:184px 40px, 100% 100%;}
+}
+@media (max-width: 480px){
+#test-type-other:focus,#main label[for="test-type-other"]:focus{background-position:100%, 200%, 0;}
+}
+legend{padding-bottom:.5em;font-weight:bold;}
+fieldset{margin:1em 0 2em;position:relative;}
+span.label{display:inline-block;margin-bottom:.5em;font-weight:bold;}
+label[for*="test-type"]{position:relative;overflow:hidden;display:block;border:1px solid #ccc;border-bottom-color:#bbb;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;width:100%;min-height:2.5em;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;background:#fafafa;background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/select.png),-webkit-gradient(linear, 0 0, 0 100%, from(#e4e4e4), color-stop(25%, #e4e4e4), to(#f5f5f5));background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/select.png),-webkit-linear-gradient(#e4e4e4, #e4e4e4 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/select.png),-moz-linear-gradient(top, #e4e4e4, #e4e4e4 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/select.png),-ms-linear-gradient(#e4e4e4, #e4e4e4 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/select.png),-o-linear-gradient(#e4e4e4, #e4e4e4 25%, #f5f5f5);background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/select.png),linear-gradient(#e4e4e4,#e4e4e4 25%,#f5f5f5);background-repeat:no-repeat;background-position:100% 50%;-moz-box-shadow:rgba(255,255,255,0.2) 0 1px 0 inset,rgba(0,0,0,0.05) 0 1px 2px;-webkit-box-shadow:rgba(255,255,255,0.2) 0 1px 0 inset,rgba(0,0,0,0.05) 0 1px 2px;box-shadow:rgba(255,255,255,0.2) 0 1px 0 inset,rgba(0,0,0,0.05) 0 1px 2px;cursor:pointer;}
+select{position:absolute;top:0;right:0;bottom:0;left:0;padding:.3em 0 0 1.25em;width:100%;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;font-size:1em;letter-spacing:1px;text-shadow:0 1px 1px rgba(255,255,255,0.75);color:#444;cursor:pointer;appearance:normal;-webkit-appearance:none;-moz-appearance:radio-container;}
+select:focus{outline:3px solid #fc0;}
+input:focus{outline:3px solid #fc0;}
+select::-ms-expand{display:none;}
+header{margin:0;padding:0;vertical-align:baseline;}
+#main>header{margin-bottom:1.16667em;padding:1.16667em 1.641em;background:#f5f5f5;}
+#main>header:after{display:block;clear:both;height:0;content:"\2003";}
+#main>header h1{float:left;}
+@media (max-width: 480px){
+#main>header{padding:0 .5em;}
+#main>header h1{width:80%;}
+}
+@media (max-width: 1023px){
+#progress-bar{position:relative;z-index:4;border-top:2px solid white;padding:.25em 1em .5em;background:white;}
+#progress-bar strong.mobile{font-variant:small-caps;text-transform:lowercase;}
+#progress-bar strong.mobile span.button{padding:.25em 1em;width:auto;font-size:.9rem;font-variant:normal;text-transform:none;background-image:none;}
+#progress-bar ol{position:absolute;top:2.6em;right:.5em;left:.5em;z-index:999;border:1px solid #999;-moz-border-radius:4px 4px;-webkit-border-radius:4px;border-radius:4px 4px;-moz-box-shadow:0 0 1em rgba(30,30,30,0.5);-webkit-box-shadow:0 0 1em rgba(30,30,30,0.5);box-shadow:0 0 1em rgba(30,30,30,0.5);background:white;}
+#progress-bar ol:before{position:absolute;bottom:100%;left:3.75em;display:block;width:36px;height:12px;background:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/retina/pop-pointer.png) no-repeat;background-size:36px 12px;content:"";}
+#progress-bar ol li{border-top:1px solid #e3e3e3;padding:.5em .5em;counter-increment:list-order;background-size:20px 14px;}
+#progress-bar ol li:before{content:counter(list-order) ". ";}
+#progress-bar ol li:first-child{border-top:none;}
+#progress-bar ol li#status{background:#7f7f7f url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/retina/current-step.png) no-repeat 98% 50%;color:white;}
+#progress-bar ol li#status:after{float:right;margin-right:8em;font-size:60%;content:"Current step";}
+}
+@media (max-width: 1023px){
+#page-choose-test-type #progress-bar ol:before{background-image:url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/retina/pop-pointer-first.png);}
+}
+@media (min-width: 1024px){
+#progress-bar-wrapper{min-height:64px;height:auto!important;height:64px;}
+#progress-bar{z-index:999;padding:1em 1em 0 1.70em;width:100%;max-width:960px;min-height:1.5em;background:white;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+#progress-bar:after{display:block;clear:both;height:0;content:"\2003";}
+#progress-bar li{position:relative;z-index:2;display:block;float:left;margin-bottom:1em;margin-left:1px;padding:.5em 1.4em .5em 2em;font-size:12px;counter-increment:list-order;color:#7f7f7f;background:#f3f3f3 url(https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/progress-bar-mid.png) no-repeat 100% 50%;}
+#progress-bar li:first-child{margin-left:0;}
+#progress-bar li::before{position:absolute;right:100%;bottom:50%;z-index:-1;margin:0 -2.75em -20px 0;-moz-border-radius:20em;-webkit-border-radius:20em;border-radius:20em;width:40px;height:40px;text-align:center;line-height:3.35;background:#f3f3f3;content:counter(list-order);}
+#progress-bar li#status{background:#7f7f7f;color:white;}
+#progress-bar li#status::before{background:#7f7f7f;}
+#progress-bar li.end-point{-moz-border-radius-topright:20em;-webkit-border-top-right-radius:20em;border-top-right-radius:20em;-moz-border-radius-bottomright:20em;-webkit-border-bottom-right-radius:20em;border-bottom-right-radius:20em;background-image:none;}
+}

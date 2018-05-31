@@ -1,0 +1,215 @@
+#FOOTER_1 {
+    height: 273px;
+    text-size-adjust: 100%;
+    width: 1280px;
+    perspective-origin: 640px 137px;
+    transform-origin: 640px 137px;
+    background: rgb(222, 224, 226) none repeat scroll 0% 0% / auto padding-box border-box;
+    border-top: 1px solid rgb(161, 172, 178);
+    font: normal normal 400 normal 16px / 18px NTA, "Helvetica Neue", Arial, Helvetica, sans-serif;
+}/*#FOOTER_1*/
+
+#DIV_2 {
+    height: 213px;
+    max-width: 960px;
+    text-size-adjust: 100%;
+    width: 960px;
+    perspective-origin: 496px 136.5px;
+    transform-origin: 496px 136.5px;
+    font: normal normal 400 normal 16px / 18px NTA, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    margin: 0px 144px;
+    padding: 60px 16px 0px;
+}/*#DIV_2*/
+
+#DIV_3 {
+    clear: both;
+    color: rgb(69, 74, 76);
+    height: 153px;
+    text-decoration: none solid rgb(69, 74, 76);
+    text-size-adjust: 100%;
+    width: 960px;
+    column-rule-color: rgb(69, 74, 76);
+    perspective-origin: 480px 106.5px;
+    transform-origin: 480px 106.5px;
+    caret-color: rgb(69, 74, 76);
+    border: 0px none rgb(69, 74, 76);
+    font: normal normal 400 normal 0px / 18px NTA, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    outline: rgb(69, 74, 76) none 0px;
+    padding: 0px 0px 60px;
+}/*#DIV_3*/
+
+#DIV_4 {
+    color: rgb(69, 74, 76);
+    display: inline-block;
+    height: 40px;
+    text-decoration: none solid rgb(69, 74, 76);
+    text-size-adjust: 100%;
+    vertical-align: bottom;
+    width: 720px;
+    column-rule-color: rgb(69, 74, 76);
+    perspective-origin: 360px 20px;
+    transform-origin: 360px 20px;
+    caret-color: rgb(69, 74, 76);
+    border: 0px none rgb(69, 74, 76);
+    font: normal normal 400 normal 0px / 18px NTA, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    outline: rgb(69, 74, 76) none 0px;
+}/*#DIV_4*/
+
+#UL_5 {
+    color: rgb(69, 74, 76);
+    display: inline-block;
+    height: 24px;
+    text-decoration: none solid rgb(69, 74, 76);
+    text-size-adjust: 100%;
+    width: 273.891px;
+    column-rule-color: rgb(69, 74, 76);
+    perspective-origin: 136.938px 12px;
+    transform-origin: 136.938px 12px;
+    caret-color: rgb(69, 74, 76);
+    border: 0px none rgb(69, 74, 76);
+    font: normal normal 300 normal 16px / 24px nta, Arial, sans-serif;
+    list-style: none outside none;
+    margin: 0px 0px 16px;
+    outline: rgb(69, 74, 76) none 0px;
+    padding: 0px;
+}/*#UL_5*/
+
+#LI_6 {
+    color: rgb(69, 74, 76);
+    display: inline-block;
+    height: 24px;
+    text-decoration: none solid rgb(69, 74, 76);
+    text-size-adjust: 100%;
+    width: 33.1406px;
+    column-rule-color: rgb(69, 74, 76);
+    perspective-origin: 16.5625px 12px;
+    transform-origin: 16.5625px 12px;
+    caret-color: rgb(69, 74, 76);
+    border: 0px none rgb(69, 74, 76);
+    font: normal normal 300 normal 16px / 24px nta, Arial, sans-serif;
+    list-style: none outside none;
+    margin: 0px 15px 0px 0px;
+    outline: rgb(69, 74, 76) none 0px;
+}/*#LI_6*/
+
+#A_7, #A_9, #A_13 {
+    color: rgb(69, 74, 76);
+    text-align: left;
+    text-decoration: underline solid rgb(69, 74, 76);
+    text-size-adjust: 100%;
+    column-rule-color: rgb(69, 74, 76);
+    perspective-origin: 0px 0px;
+    transform-origin: 0px 0px;
+    caret-color: rgb(69, 74, 76);
+    border: 0px none rgb(69, 74, 76);
+    font: normal normal 300 normal 16px / 24px nta, Arial, sans-serif;
+    list-style: none outside none;
+    outline: rgb(69, 74, 76) none 0px;
+}/*#A_7, #A_9, #A_13*/
+
+#LI_8 {
+    color: rgb(69, 74, 76);
+    display: inline-block;
+    height: 24px;
+    text-decoration: none solid rgb(69, 74, 76);
+    text-size-adjust: 100%;
+    width: 56.0312px;
+    column-rule-color: rgb(69, 74, 76);
+    perspective-origin: 28.0156px 12px;
+    transform-origin: 28.0156px 12px;
+    caret-color: rgb(69, 74, 76);
+    border: 0px none rgb(69, 74, 76);
+    font: normal normal 300 normal 16px / 24px nta, Arial, sans-serif;
+    list-style: none outside none;
+    margin: 0px 15px 0px 0px;
+    outline: rgb(69, 74, 76) none 0px;
+}/*#LI_8*/
+
+#LI_10 {
+    color: rgb(69, 74, 76);
+    display: inline-block;
+    height: 24px;
+    text-decoration: none solid rgb(69, 74, 76);
+    text-size-adjust: 100%;
+    width: 53.0938px;
+    column-rule-color: rgb(69, 74, 76);
+    perspective-origin: 26.5469px 12px;
+    transform-origin: 26.5469px 12px;
+    caret-color: rgb(69, 74, 76);
+    border: 0px none rgb(69, 74, 76);
+    font: normal normal 300 normal 16px / 24px nta, Arial, sans-serif;
+    list-style: none outside none;
+    margin: 0px 15px 0px 0px;
+    outline: rgb(69, 74, 76) none 0px;
+}/*#LI_10*/
+
+#STRONG_11 {
+    color: rgb(69, 74, 76);
+    text-align: left;
+    text-decoration: none solid rgb(69, 74, 76);
+    text-size-adjust: 100%;
+    column-rule-color: rgb(69, 74, 76);
+    perspective-origin: 0px 0px;
+    transform-origin: 0px 0px;
+    caret-color: rgb(69, 74, 76);
+    border: 0px none rgb(69, 74, 76);
+    font: normal normal 700 normal 16px / 24px nta, Arial, sans-serif;
+    list-style: none outside none;
+    outline: rgb(69, 74, 76) none 0px;
+}/*#STRONG_11*/
+
+#LI_12 {
+    color: rgb(69, 74, 76);
+    display: inline-block;
+    height: 24px;
+    text-decoration: none solid rgb(69, 74, 76);
+    text-size-adjust: 100%;
+    width: 62.0156px;
+    column-rule-color: rgb(69, 74, 76);
+    perspective-origin: 31px 12px;
+    transform-origin: 31px 12px;
+    caret-color: rgb(69, 74, 76);
+    border: 0px none rgb(69, 74, 76);
+    font: normal normal 300 normal 16px / 24px nta, Arial, sans-serif;
+    list-style: none outside none;
+    margin: 0px 15px 0px 0px;
+    outline: rgb(69, 74, 76) none 0px;
+}/*#LI_12*/
+
+#DIV_14 {
+    color: rgb(69, 74, 76);
+    display: inline-block;
+    height: 135px;
+    text-decoration: none solid rgb(69, 74, 76);
+    text-size-adjust: 100%;
+    width: 240px;
+    column-rule-color: rgb(69, 74, 76);
+    perspective-origin: 120px 75px;
+    transform-origin: 120px 75px;
+    caret-color: rgb(69, 74, 76);
+    border: 0px none rgb(69, 74, 76);
+    font: normal normal 300 normal 16px / 20px nta, Arial, sans-serif;
+    outline: rgb(69, 74, 76) none 0px;
+    padding: 15px 0px 0px;
+}/*#DIV_14*/
+
+#A_15 {
+    background-position: 100% 0px;
+    color: rgb(69, 74, 76);
+    display: block;
+    height: 20px;
+    text-align: right;
+    text-decoration: none solid rgb(69, 74, 76);
+    text-size-adjust: 100%;
+    width: 240px;
+    column-rule-color: rgb(69, 74, 76);
+    perspective-origin: 120px 67.5px;
+    transform-origin: 120px 67.5px;
+    caret-color: rgb(69, 74, 76);
+    background: rgba(0, 0, 0, 0) url("https://driverpracticaltest.direct.gov.uk/resources/2.39.0.6-SNAPSHOT/img/branding/govuk-crest-2x.png") no-repeat scroll 100% 0px / 125px 102px padding-box border-box;
+    border: 0px none rgb(69, 74, 76);
+    font: normal normal 300 normal 16px / 20px nta, Arial, sans-serif;
+    outline: rgb(69, 74, 76) none 0px;
+    padding: 115px 0px 0px;
+}/*#A_15*/
+
